@@ -2,7 +2,7 @@ variable "aws" {
   description = "AWS Region & Credential Config"
   type        = map(string)
   default = {
-    region  = "us-east-2"
+    region  = "us-east-1"
     #profile = "suhail-dev"
   }
 }
