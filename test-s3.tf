@@ -17,6 +17,8 @@ resource "aws_s3_bucket" "test_bucket" {
   tags = {
     Name        = "test-bucket-${module.iam_account.this_caller_identity_account_id}"
     Environment = "Dev"
+    CreatedBy   = "Suhail"
+    Terraform   = "True"
   }
 
   lifecycle {
