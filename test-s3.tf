@@ -19,7 +19,6 @@ resource "aws_s3_bucket" "test_bucket" {
     Environment = "Dev"
     CreatedBy   = "Suhail"
     Terraform   = "True"
-    Purpose     = "Testing"
   }
 
   lifecycle {
